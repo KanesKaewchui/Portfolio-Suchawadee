@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "portfolio-backend",
+			"problemMatcher": [],
+			"label": "npm: dev - portfolio-backend",
+			"detail": "strapi develop"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "portfolio-backend",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - portfolio-backend",
+			"detail": "strapi build"
+		}
+	]
+}
